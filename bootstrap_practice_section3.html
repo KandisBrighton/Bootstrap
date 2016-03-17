@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            @media (max-width: 767px) {
+                .img-responsive {
+                    max-width:50%;
+                    min-width: 300px;
+                }
+            }
+        </style>
+        <title>Bootstrap section 3 practice</title>
+        <p><span class="h1 visible-print-block"><strong>I'm Done!</strong></span></p>
+        <h1>Assn 3C More Bootstrap Plus</h1>
+        <h2><em>There is a hidden message when you print</em></h2>
+  
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <section class="col-xs-12">
+                    <!-- text-lowercase or text-capitalize -->
+                    <h1 class = "text-uppercase">Favorite Places<small>of Mine!</small></h1>
+                    <p class="lead text-left">These are <small>some</small> of the <span class="h1">Best</span> places that I have been.</p>
+                    <blockquote>
+                       <p>
+                        <h2>Hawaii</h2>
+                            <p class="text-center">We went to <strong>Hawaii</strong> after Larry's <abbr title="graduation" class="initialism">grad.</abbr></abbr> and for our <mark>30th anniversary</mark>.</p>
+                        <h3>Coronado</h3>
+                            <p class = "text-right">We have gone to Papa's condo in <b>Coronado</b> <s>many</s> <del>multiple</del> <ins>tons of</ins> times for <u>family</u> vacations.</p>
+                        <h4>Home</h4>
+                            <p class = "text-justify">With all of the places we have visited, there is still <i>no place like</i> <em>home!</em></p>
+                        <!-- <p class = "text-nowrap"> -->
+                       </p>
+                        <footer>Kandis Brighton</footer>
+                    </blockquote>
+                </section>
+            </div>
+        </div>
+        
+        <section class = col-xs-12>
+            <h2>Favorite Food</h2>
+            <ol class="list-unstyled">
+                <li>ice cream</li>
+                <li>biscotti</li>
+                <li>lasagna</li>
+            </ol>
+            <h2>Favorite Colors</h2>
+            <ul class="list-inline">
+                <li>Blue</li>
+                <li>Purple</li>
+                <li>Green</li>
+            </ul>
+            <h2>Favorite Hobbies</h2>
+            <dl class="dl-horizontal">
+                <dt>Reading</dt>
+                <dd>I love to read when I have a quiet place, an interesting book, and plenty of time.</dd>
+                <dt>Walking</dt>
+                <dd>I love to go for casual walks through the woods with good friends.</dd>
+            </dl>
+        </section>
+        <section>
+            <p>Here are some extra fun things in Bootstrap.
+            <code>&lt;em&gt;</code>
+            <kbd>control-c</kbd>
+            <var>e</var>=<var>m</var><var>c</var>&sup2;
+            <pre class="pre-scrollable">    This is some
+            text      where I      dont want to
+                 ignore white         spaces and
+        want it    to scroll!
+            </pre>
+            <samp>And this is to show a sample.</samp>
+            </p>
+        </section>
+        <section>
+           <h2>Types of buttons</h2>
+           <a class="btn btn-default" href="#" role="button">Link</a>
+           <button class="btn btn-default" type="submit">Button</button>
+           <input class="btn btn-default" type="submit" value="Input">
+        
+           <h2>Contextual Classes</h2>
+           <button class="btn btn-default">Default</button>
+           <button class="btn btn-primary">Primary</button>
+           <button class="btn btn-success">Success</button>
+           <button class="btn btn-info">Info </button>
+           <button class="btn btn-warning">Warning</button>
+           <button class="btn btn-danger">Danger</button>
+        
+           <h2>Sizes</h2>
+           <button class="btn btn-default">Default </button>
+           <button class="btn btn-default btn-lg">Large </button>
+           <button class="btn btn-default btn-sm">Small </button>
+           <button class="btn btn-default btn-xs">Extra Small </button>
+           <button class="btn btn-default btn-block">Block Level </button>
+        
+           <h2>States</h2>
+           <h3>Active</h3>
+           <button class="btn btn-default active">Active Button</button>
+           <h3>Disabled</h3>
+           <button class="btn btn-default" disabled="disabled">Disabled Button </button>
+           <a class="btn btn-default disabled" href="#">Disabled Link Button</a>
+        </section>   
+        
+        <div class="container">
+            <div class = "row">
+                <section class = "col-xs-12">
+                    <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Second</th>
+                        <th>Third</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Normal</th>
+                        <td>Default</td>
+                        <td>Default color to a particular row or cell</td>
+                    </tr>
+                    <tr class="active">
+                        <th scope="row">Active</th>
+                        <td>Gray</td>
+                        <td>Active color to a particular row or cell</td>
+                    </tr>
+                    <tr class="success">
+                        <th scope="row">Success</th>
+                        <td>Green</td>
+                        <td>A successful action and color to a particular row or cell</td>
+                    </tr>
+                    <tr class="info">
+                        <th scope="row">Info</th>
+                        <td>Blue</td>
+                        <td>A neutral color to a particular row or cell</td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+        </section>
+       </div> <!--row-->
+     </div>  <!-- container -->
+     <section class="col-sm-4">
+        <img  src="images/chocolate-islands.jpg" class="img-rounded img-responsive pull-right" alt="chocolate">
+        <h1>Chocolate</h1>
+        <p class="text-info">We love Chocolate!</p>
+        <p class = "text-warning">But don't eat too much!</p>
+        <p class = "bg-danger sr-only-focusable">Or you will regret it!</p>
+     </section>
+        
+    </body>
+    
+    
+    
+    
+</html>

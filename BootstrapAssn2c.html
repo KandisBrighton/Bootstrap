@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--Kandis Brighton-->
+<!--IT 305 -->
+<!--1/12/2016-->
+<!--This webpage uses Bootstrap to change the icon and information layout depending on the size of the screen.-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Assignment 2C</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css"> <!--Is this the right one???-->
+        <!-- [if lt IE 9]>
+            <script src="http:html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <style>
+            h1 {
+                text-align: center;
+            }
+            .icon {
+                max-width: 150px;
+                margin: 0 auto;
+                display: block;
+            }
+           .services section {
+                text-align: center;
+            }
+            @media(min-width: 1200px) {
+                h2 {
+                    margin-top:0;
+                }
+                .services section {
+                    text-align:left;
+                }
+            }
+        </style>
+ 
+    </head>
+    <body>
+        <header class = "services">
+            <div class = "container">
+               <h1>Services</h1>
+            </div>
+        </header>
+        <div class="container" class="services">
+            <div class="row">
+            <!--  <div class="clearfix visible-sm-block"></div>       -->
+              <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-3">
+                        <img class="icon" src="images/icon-pestcontrol.svg" alt="icon">
+                    </div>
+                    <div class = "col-lg-5">
+                        <h3>No Bugs Allowed</h3>
+                        <p>Most of us hate those creepy crawly things. Keep them away by cleaning your clothes and home.</p>
+                     </div>
+                </div>
+              </section>
+             <!-- <div class="clearfix visible-sm-block"></div>  -->
+              <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-3">                
+                         <img class="icon" src="images/icon-nutrition.svg" alt="icon">
+                    </div>
+                    <div class = "col-lg-5">                 
+                         <h3>Dinner Time</h3>
+                         <p>Don't forget to take time out of your busy day to eat regular heathly meals.</p>
+                     </div>
+                </div>
+              </section>
+              <!-- <div class="clearfix visible-sm-block"></div> -->
+              <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-3">
+                         <img class="icon" src="images/icon-health.svg" alt="icon">
+                    </div>
+                    <div class = "col-lg-5">                
+                         <h3>Stay Healthy</h3>
+                         <p>Besides eating right and getting excercise, go to the doctor regularly.</p>
+                     </div>
+                </div>                
+              </section>
+             <div class="clearfix visible-md-block"></div> 
+              <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-3">
+                        <img class="icon" src="images/icon-grooming.svg" alt="icon">
+                    </div>
+                    <div class = "col-lg-5">                 
+                         <h3>Brush your Hair</h3>
+                         <p>You will feel a lot better about yourself and the world if you keep up your appearances.</p>
+                     </div>
+                </div>
+              </section>
+             <!-- <div class="clearfix visible-sm-block"></div> -->
+              <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-3">
+                          <img class="icon" src="images/icon-exoticpets.svg" alt="icon">
+                    </div>
+                    <div class = "col-lg-5">                
+                          <h3>Watch out!</h3>
+                          <p>Stay safe by staying away from dangerous people and places, especially snake infested deserts. </p>
+                     </div>
+                </div>                
+              </section>
+           <!--   <div class="clearfix visible-sm-block"></div> -->
+              <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-3">
+                        <img class="icon" src="images/icon-vaccinations.svg" alt="icon">
+                    </div>
+                    <div class = "col-lg-5">                 
+                        <h3>Do What is Necessary</h3>
+                        <p>Sometimes you just have to do something painful to avoid other problems. Stay brave and surround yourself with friends who will support you through hard times.</p>
+                     </div>
+                </div>                 
+              </section>
+           </div>
+        </div>
+        
+        <script src="js/jquery-2.1.4.min.js"></script>
+      <!--  <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
